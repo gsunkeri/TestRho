@@ -1,28 +1,27 @@
----
-sdkversion: 3.5.0
-name: TestRho
-version: '1.0'
-vendor: rhomobile
-build: debug
-bbver: '4.6'
-applog: rholog.txt
+sdkversion: "3.5.0"
+name: "TestRho"
+version: "1.0"
+vendor: "rhomobile"
+build: "debug"
+bbver: "4.6"
+applog: "rholog.txt"
 iphone:
-  configuration: Release
-  sdk: iphonesimulator5.0
-  provisionprofile: ''
-  codesignidentity: ''
-  entitlements: ''
-  BundleIdentifier: com.rhomobile.testrho
-  BundleURLScheme: testrho
+  configuration: "Release"
+  sdk: "iphonesimulator5.0"
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: "com.rhomobile.testrho"
+  BundleURLScheme: "testrho"
 wp:
-  productid: 54eb2df0-87dc-0131-3dc5-001cc0cca218
+  productid: "54eb2df0-87dc-0131-3dc5-001cc0cca218"
 symbian:
-  uid: '0xec46ebb6'
+  uid: "0xec46ebb6"
 android:
-  version: '2.1'
+  version: "2.1"
 extensions:
-- json
-- another-extension
-app_type: rhoelements
+  - json
+  - another-extension
+app_type: "rhoelements"
 capabilities:
-- non_motorola_device
+  - non_motorola_device
